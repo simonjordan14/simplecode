@@ -16,8 +16,8 @@
        <%= link_to "View your profile", user_path(current_user), class: 'btn btn-default btn-lg btn-block' %>
       
      <% else %>
+      <p>Create your profile and get started!</p>
       <%= link_to "Create your profile", new_user_profile_path(current_user), class: 'btn btn-default btn-lg btn-block'%>
-      
       <% end %>
       
     </div>  
